@@ -10,6 +10,8 @@ import AccordionMultiple from './pages/AccordionMultiple'
 import QuoteApp from './pages/QuoteApp'
 import TimeApp from './pages/TimeApp'
 import LiftStateUp from './pages/LiftStateUp'
+import Calculator from './pages/Calculator'
+import Calendar from './pages/Calendar'
 export default function App() {
   return (
     <div>
@@ -27,6 +29,14 @@ export default function App() {
       <QuoteApp />
       <TimeApp />
       <LiftStateUp />
+       <div>
+      <h1 style={{ textAlign: "center", color: "#444" }}>React Calculator</h1>
+      <Calculator />
+    </div>
+
+    <div className='calendar-display'>
+      <Calendar />
+    </div>
     </div>
   )
 }

@@ -1,0 +1,17 @@
+.calendar{
+    width: 300px;
+    margin:auto;
+    text-align:center;
+}
+
+.weekdays{
+    display:grid;
+    grid-template-columns:repeat(7,1fr);
+    font-weight:bold;
+}
+
+.days-grid{
+    display:grid;
+    grid-template-columns:repeat(7,1fr);
+    min-height: 200px;
+}
